@@ -1,6 +1,5 @@
 {
   "version": 1,
-  "author": "Wanderson Policarpo <wpolicarpo@gmail.com>",
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "boardsource/lulu/rp2040",
@@ -32,7 +31,7 @@
       "KC_O",
       "KC_P",
       "KC_MINS",
-      "KC_LCTL",
+      "KC_LSFT",
       "KC_A",
       "KC_S",
       "KC_D",
@@ -44,7 +43,7 @@
       "KC_L",
       "KC_SCLN",
       "KC_EQL",
-      "KC_LSFT",
+      "KC_LCTL",
       "KC_Z",
       "KC_X",
       "KC_C",
@@ -79,8 +78,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "KC_DEL",
+      "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -92,7 +91,7 @@
       "KC_NO",
       "KC_NO",
       "KC_VOLD",
-      "KC_NO",
+      "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -104,7 +103,7 @@
       "KC_NO",
       "KC_NO",
       "KC_VOLU",
-      "KC_NO",
+      "KC_TRNS",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -238,8 +237,8 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_TRNS",
-      "KC_TRNS",
+      "KC_NO",
+      "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -247,5 +246,6 @@
       "KC_NO",
       "KC_NO"
     ]
-  ]
+  ],
+  "author": "Wanderson Policarpo <wpolicarpo@gmail.com>"
 }
